@@ -5,7 +5,7 @@ int main(){
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Hello darthman", 190, 200, 20, BLACK);
+        DrawText("Hello darthman", 400, 200, 20, BLACK);
         EndDrawing();
     }
     CloseWindow();
